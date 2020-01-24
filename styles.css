@@ -173,6 +173,8 @@ img {
   line-height: 1.2;
   text-align: center;
   margin-top: 70px;
+  font-weight: 700;
+  font-family: var(--monserrat);
 }
 
 .title-item {
