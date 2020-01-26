@@ -428,13 +428,13 @@ img {
   }
 
   .container {
-    width: 942px;
+    min-width: 922px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .item-find-your-partner {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .item-find-your-partner:last-child {
