@@ -233,10 +233,8 @@ img {
   position: relative;
   cursor: pointer;
 }
+/*
 
-.card:hover .icon {
-  transform: scale(1.05);
-}
 
 .icon {
   width: 40px;
@@ -251,26 +249,53 @@ img {
   transition: transform 250ms linear;
 }
 
-.tv {
-  background-color: var(--red-color);
-  background-image: url(images/tv.svg);
-}
 
-.bottle {
-  background-color: var(--gold-color);
-  background-image: url(images/bottle.svg);
+
+
+
+
+
+
+*/
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 4px solid var(--white-color);
   position: absolute;
-  top: 37%;
-}
-
-.coffee {
-  background-color: var(--background-color);
-  background-image: url(images/coffe.svg);
+  top: 40%;
+  right: 21%;
+  transition: transform 250ms linear;
+  fill: #fff;
 }
 
 .paperplane {
   background-color: var(--blue-color);
-  background-image: url(images/paperplane.svg);
+  padding-top: 9px;
+  padding-left: 6px;
+}
+
+.tv {
+  background-color: var(--red-color);
+  padding-top: 6px;
+  padding-left: 8px;
+}
+
+.bottle {
+  background-color: var(--gold-color);
+  padding-top: 7px;
+  padding-left: 10px;
+}
+
+.coffee {
+  background-color: var(--background-color);
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.card:hover .icon {
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 767px) {
@@ -398,7 +423,7 @@ img {
   }
 }
 
-@media screen and (max-width: 941px) {
+@media screen and (max-width: 959px) {
   .item-find-your-partner {
     list-style-type: none;
     margin-bottom: 35px;
@@ -421,20 +446,20 @@ img {
   }
 }
 
-@media screen and (min-width: 942px) {
+@media screen and (min-width: 960px) {
   .image-container {
     background-image: url(images/desktop.png);
     max-width: 1440px;
   }
 
   .container {
-    min-width: 922px;
+    min-width: 942px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .item-find-your-partner {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .item-find-your-partner:last-child {
